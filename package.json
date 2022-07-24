@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "start": "yarn build && yarn build/index.js",
+    "start": "yarn build && node build/index.js",
     "lint": "eslint src --fix"
   },
   "author": "",
